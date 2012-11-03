@@ -2,4 +2,4 @@ language: ruby
 rvm:
   - 1.9.3
 script:
-- phantomjs js/phantom-qunit.js http://localhost:8000/index.html
+- phantomjs js/phantom-qunit.js index.html
