@@ -1,4 +1,4 @@
 language: node_js
 node_js: 0.8
 script:
-- phantomjs js/run-qunit.js http://localhost:8000/index.html
+- phantomjs js/phantom-qunit.js http://localhost:8000/index.html
