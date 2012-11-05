@@ -3,3 +3,7 @@ rvm:
   - 1.9.3
 script:
 - phantomjs js/phantom-qunit.js index.html
+
+branches:
+  only:
+    - gh-pages
